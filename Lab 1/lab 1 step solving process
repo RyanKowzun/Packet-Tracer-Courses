@@ -1,0 +1,21 @@
+FREE CCNA Lab 001: Basic Router Security Configuration 1
+
+source: https://youtu.be/XgcGcrLKu1A?si=AqgqXpJMe0F1O9Q9
+
+Will write down how I learn about each step and the like.
+
+1. Simple just grab the routers and use coper stragith through connect to the eth0/0. Simple.
+
+2. Changing the host name. Thought changing the display name counts as changing the host name, WRONG! It's actually going into the CLI and enabling it, going into the configure terminal and using "hostname 'name' " to change it.
+
+3. Enabling the password on the router. Thought it was something along the lines of passwd or password. It's actually "enable password 'password' ".
+
+4. Simple to see the password in the running config just do "sh run" to show the running config.
+
+5. "service password-encryption" encrypts the password. 
+
+6. By using "sh run" you get the password shown as a bunch of random numbers. Little side note but "sh run" doesn't run in conf t. It has to be in the enable part i.e. R1# not R1(config). "do sh run" in conf t is the faster way then typing exit multiple times :)
+
+7. "no service password-encryption" will not encrypt future passwords. But will not un-encrypt your current password either
+
+8. Lab done and many new things learned espcially the commands :)

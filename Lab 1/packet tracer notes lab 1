@@ -1,0 +1,17 @@
+Notes for packet tracer
+
+en = enable
+
+conf t = configure terminal
+
+hostname "" = change the name
+
+enable password "" = enables the password
+
+service password-encryption = encrypts the password
+
+no service password-encryption = gets rid of password encryption in the future but doesn't decrypt current password
+
+sh run = show running config
+
+do sh run = show running config in conf t
